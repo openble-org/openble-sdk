@@ -1,6 +1,6 @@
 {
   "name": "@openble/openble-sdk",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "OpenBLE SDK",
   "main": "dist/index.js",
   "scripts": {
