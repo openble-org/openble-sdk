@@ -1,4 +1,4 @@
-/// Generated with OpenBLE
+const arduinobleCpp = `/// Generated with OpenBLE
 
 #include "openble.h"
 
@@ -29,3 +29,6 @@ void openbleSetup() {
 
   BLE.advertise();
 }
+`
+
+export default arduinobleCpp

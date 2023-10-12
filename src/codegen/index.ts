@@ -1,7 +1,13 @@
 import * as Handlebars from "handlebars"
 import { ParsedSchema } from "../parsedSchema"
-import arduinobleCppTemplate from './arduinobleCpp.hbs?raw'
-import arduinobleHTemplate from './arduinobleH.hbs?raw'
+// import arduinobleCppTemplate from './arduinobleCpp.precompiled.js'
+// import arduinobleHTemplate from './arduinobleH.precompiled.js'
+
+// export * from './arduinobleCpp.precompiled.js'
+// export * from './arduinobleH.precompiled.js'
+
+import arduinobleCppTemplate from './arduinobleCpp'
+import arduinobleHTemplate from './arduinobleH'
 
 // TODO fix helpers- need `eq` helper for variable types
 // handlebarsHelpers({ handlebars: Handlebars })
@@ -14,14 +20,13 @@ Handlebars.registerHelper('camelCase', function (str) {
 
 // TODO support other platforms
 export function generateCode(schema: ParsedSchema): FileData[] {
+  // const cppTemplate = Handlebars.template(arduinobleCppTemplate)
+  // const hTemplate = Handlebars.template(arduinobleHTemplate)
   const cppTemplate = Handlebars.compile(arduinobleCppTemplate)
   const hTemplate = Handlebars.compile(arduinobleHTemplate)
 
   const cppCode = cppTemplate(schema)
   const hCode = hTemplate(schema)
-
-  console.log('cpp code', cppCode)
-  console.log('h code', hCode)
 
   return [{
     fileName: 'openble.cpp',

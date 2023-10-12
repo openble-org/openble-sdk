@@ -1,4 +1,4 @@
-/// Generated with OpenBLE
+const arduinobleH = `/// Generated with OpenBLE
 
 #ifndef OPENBLE_H
 #define OPENBLE_H
@@ -15,3 +15,6 @@ extern BLEIntCharacteristic {{camelCase name}}Characteristic;
 void openbleSetup();
 
 #endif
+`
+
+export default arduinobleH

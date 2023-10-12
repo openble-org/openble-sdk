@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
-    "target": "ES2019",
-    "module": "NodeNext",
-    "lib": ["ES2019", "DOM"],
+    "target": "ESNext",
+    "module": "Node16",
+    "allowJs": true, // Allow importing .js files
+    "resolveJsonModule": true, // Allow importing .json files
+    "moduleResolution": "Node16",
     "declaration": true,
-    "outDir": "dist",
-    "strict": true,
-    "esModuleInterop": true,
-    "moduleResolution": "NodeNext",
-    "resolveJsonModule": true
+    "declarationMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true
   },
   "include": ["src/**/*.ts", "src/custom.d.ts"],
   "exclude": [
