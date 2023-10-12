@@ -1,12 +1,12 @@
 {
   "name": "@openble/openble-sdk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "OpenBLE SDK",
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "author": "",
   "license": "ISC",
