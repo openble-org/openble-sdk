@@ -1,5 +1,7 @@
 # OpenBLE SDK
 
+[![](https://dcbadge.vercel.app/api/server/dJk69ZC6RD)](https://discord.gg/dJk69ZC6RD)
+
 Define your GATT services in YAML with the OpenBLE SDK. This SDK can
 
 - Accept and validate raw JSON schema
@@ -9,7 +11,9 @@ Define your GATT services in YAML with the OpenBLE SDK. This SDK can
 
 - [Web bluetooth demo](https://demo.openble.org)
 - [Demo video](https://www.loom.com/share/4f1304d2749d476682ed27727921d023?sid=5c100489-29cb-4641-aa5b-7b41570866e4)
+- [Discord](https://discord.gg/dJk69ZC6RD)
 - [Website and docs](https://openble.org)
+- contact: shardul@openble.org
 
 ## Features
 
