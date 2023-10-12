@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                // Set your target ECMAScript version
+    "module": "CommonJS",           // Use CommonJS for Node.js compatibility
+    "outDir": "./dist",             // Output directory for transpiled code
+    "rootDir": "./src",             // Source code directory
+    "declaration": true,            // Generate .d.ts declaration files
+    "declarationDir": "./types",    // Directory for declaration files
+    "strict": true,                 // Enable strict mode
+    "esModuleInterop": true,        // Allow default imports from CommonJS modules
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,           // Skip type checking of declaration files
+    "lib": ["ES6"],                 // Specify the TypeScript library version
+
+    // Add any other compiler options as needed
+  },
+  "include": ["src/**/*.ts"],      // Specify the files to include
+  "exclude": ["node_modules"]      // Specify the files to exclude
+}
