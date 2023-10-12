@@ -1,13 +1,16 @@
 {
   "compilerOptions": {
     "target": "ES2019",
-    "module": "ESNext",
+    "module": "NodeNext",
     "lib": ["ES2019", "DOM"],
     "declaration": true,
     "outDir": "dist",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true
   },
+  "include": ["src/**/*.ts", "src/custom.d.ts"],
   "exclude": [
     "node_modules",
     "dist"

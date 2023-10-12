@@ -2,7 +2,7 @@
   "name": "@openble/openble-sdk",
   "version": "0.1.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,9 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "tiny-invariant": "^1.3.1"
   }
 }
