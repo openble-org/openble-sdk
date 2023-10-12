@@ -1,3 +1,3 @@
-function main() {
-  console.log('hello world')
+export function helloWorld() {
+  console.log('hello gg')
 }
