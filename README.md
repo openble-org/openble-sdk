@@ -8,7 +8,7 @@ Define your GATT services in YAML with the OpenBLE SDK. This SDK can
 ## Links
 
 - [Web bluetooth demo](https://demo.openble.org)
-- [Demo video]()
+- [Demo video](https://www.loom.com/share/4f1304d2749d476682ed27727921d023?sid=5c100489-29cb-4641-aa5b-7b41570866e4)
 - [Website and docs](https://openble.org)
 
 ## Features
